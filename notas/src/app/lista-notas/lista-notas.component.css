@@ -1,0 +1,74 @@
+/* Estilos para el contenedor principal */
+.contenedor {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos para el navbar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Estilos para la lista de notas */
+  .notas {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .notas:hover {
+    transform: scale(1.02);
+  }
+  
+  .borrar {
+    cursor: pointer;
+    align-self: flex-end;
+    padding: 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .contenido {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para el botón de agregar notas */
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  

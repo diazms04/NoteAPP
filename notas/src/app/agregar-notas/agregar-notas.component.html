@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <div class="logo">Aplicación de Notas</div>
+</nav>
+
+<form (ngSubmit)="agregarNota()" ngNativeValidate class="nota-form">
+  <div class="contenedor">
+    Titulo <input type="text" [(ngModel)]="titulo" required minlength="3" name="titulo">
+    Contenido <textarea [(ngModel)]="contenido" required minlength="10" name="contenido"></textarea>
+    <br>
+    <button type="submit" style="background-color: purple;">+ Agregar</button>
+    <button style="background-color: grey;" (click)="agregar()">Cancelar</button>
+  </div>
+</form>

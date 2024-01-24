@@ -1,0 +1,53 @@
+/* Estilos para el navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Estilos para el formulario de notas */
+  .nota-form {
+    margin-top: 60px; /* Ajusta el margen superior para evitar solapamiento con el navbar */
+  }
+  
+  /* Estilos adicionales */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenedor {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
