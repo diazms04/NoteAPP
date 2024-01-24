@@ -38,7 +38,3 @@
 2. Create a database named `notas`.
 3. Update the connection settings in the `application.properties` file in the backend.
 
-
-
-
-Feel free to customize this README according to your needs and add additional sections you consider important! This is just a basic example to get you started.
